@@ -1,0 +1,30 @@
+$_name - stores the name of the plaeyr
+$_direction - stores the direction of movement of the player : "left", "right", "up", "down"
+$_ships - stores the array of the Ship class objects that describe the fleet
+$_nb_ships - stores the number of ships in the fleet$
+$_coords - stores the coordinates of the ships on the grid;
+$_active_ship - stores the number of the ship that is now under control of the player
+
+public function get_name() - returns the name of the player
+
+public function get_direction() - returns the direction of movement of the player
+
+public function set_direction($direct) - sets the direction of movement of the player
+
+public function get_fleet() - returns the array of objects of the Ship class
+
+public function set_fleet($fleet) - sets the fleet of the player
+
+public function get_nb_of_ships() - returns the nubmer of ships in the fleet of the player
+
+public function set_nb_of_ships($nb) - sets the number of ships in the fleet
+
+public function get_coord() - returns the coordinates of the ships on the grid
+
+public function set_coord($coord) - sets the coordinates of the ships on the grid
+
+public function get_active_ship() - returns the number of active ship
+
+public function set_active_ship($flag) - sets the currect active ship for the player
+
+public function set_ships($arr) - sets the fleet of the player

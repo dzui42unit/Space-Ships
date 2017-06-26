@@ -1,0 +1,6 @@
+$_x - stores the x position of the asteroid on the grid
+$_y - stores the y position of the asteroid on the grid
+
+public function get_x_pos() - returns the x position of the asteroid on the grid
+
+public function get_y_pos() - returns y position of the asteroid on the grid

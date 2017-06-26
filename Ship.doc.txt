@@ -1,0 +1,41 @@
+$_x - stores the x coordinate of the ship on the grid
+$_y - stores the y coordinate of the ship on the grid
+$_hp - stores the number of health points of the ship
+$_range - stores the range of fire of the ship
+$_pp - stores the number of power points of the ship
+$_name - stores the name of the ship
+$_pp_init - stores the initial number of power points
+$_damage - stores the damage that can the ship provide
+$_shoot_energy - sotres the number of power points of the ship that are needed to make a shoot
+
+public function get_name() - returns the name of the ship
+
+public function get_x_pos() - returns the x position of the ship on the grid
+
+public function get_y_pos() - returns the y position of the ship on the grid
+
+public function move_up() - moves the ship up
+
+public function move_down() - moves the ship down
+
+public function move_left() - moves the ship left
+
+public function move_right() - moves the ship right
+
+public function get_power_point() - returns the number of power points
+
+public function get_hp() - returns the number of health points
+
+public function get_range() - returns the range of the shoot of the ship
+
+public function get_hit($damage) takes the damage, decreases the hp amount
+
+public function set_power($dec) - sets a new value to the power
+
+public function set_init_power() - resets the value of the power points
+
+public function set_hp($hp) - resets the value of health points
+
+public function get_damage() - returns the number of damage ship can cause
+
+public function get_shoot_energy() - returns the nubmer of energy for the shoot
